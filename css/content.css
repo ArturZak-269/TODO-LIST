@@ -1,0 +1,15 @@
+.content {
+  background: white;
+  margin: 10px 0;
+}
+
+.content__header {
+  padding: 20px;
+  border-bottom: 2px solid #ddd;
+  margin: 0;
+}
+
+.content__body {
+  padding: 20px;
+  word-break: break-word;
+}
