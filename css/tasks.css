@@ -20,6 +20,13 @@
   color: white;
 }
 
+@media (max-width: 300px) {
+  .tasks__button {
+    width: 24px;
+    height: 24px;
+  }
+}
+
 .tasks__button--done {
   background: rgb(6, 128, 6);
   font-weight: bold;
