@@ -5,11 +5,37 @@
 
 .content__header {
   padding: 20px;
-  border-bottom: 2px solid #ddd;
-  margin: 10px;
+  border-bottom: 1px solid #ddd;
+  margin: 0;
+}
+
+@media (max-width: 300px) {
+  .content__header {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+@media (max-width: 300px) {
+  .content__header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
 }
 
 .content__body {
   padding: 20px;
   word-break: break-word;
+}
+
+@media (max-width: 576px) {
+  .content__body {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 300px) {
+  .content__body {
+    padding: 10px;
+  }
 }
