@@ -34,6 +34,7 @@
 
 .tasks__button--done:active {
   border: 2px solid #000;
+  border-radius: 2px;
 }
 
 .tasks__button--remove {
@@ -42,6 +43,7 @@
 
 .tasks__button--remove:active {
   border: 2px solid #000;
+  border-radius: 2px;
 }
 
 .tasks__content--done {
