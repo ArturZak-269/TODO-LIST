@@ -37,8 +37,16 @@
   border-radius: 2px;
 }
 
+.tasks__button--done:hover {
+  background: rgb(38, 136, 38);
+}
+
 .tasks__button--remove {
   background: rgb(209, 61, 61);
+}
+
+.tasks__button--remove:hover {
+  background: rgb(211, 90, 90);
 }
 
 .tasks__button--remove:active {
