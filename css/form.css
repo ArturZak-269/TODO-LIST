@@ -48,6 +48,10 @@
   }
 }
 
+.form__button:hover {
+  background: rgb(33, 155, 155);
+}
+
 .form__button:active {
   border: 2px solid black;
   border-radius: 2px;
