@@ -1,6 +1,7 @@
 .content {
   background: white;
   margin: 10px 0;
+  box-shadow: 0 0 15px #c0c0c0;
 }
 
 .content__header {
