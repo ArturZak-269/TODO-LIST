@@ -13,11 +13,16 @@
   padding: 10px;
 }
 
+.tasks__item--hidden {
+  display: none;
+}
+
 .tasks__button {
   border: none;
   width: 30px;
   height: 30px;
   color: white;
+  cursor: pointer;
 }
 
 @media (max-width: 300px) {
